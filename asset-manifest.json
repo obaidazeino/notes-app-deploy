@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/notes-app-deploy/static/css/main.abae0289.chunk.css",
+    "main.js": "/notes-app-deploy/static/js/main.60e5f58a.chunk.js",
+    "main.js.map": "/notes-app-deploy/static/js/main.60e5f58a.chunk.js.map",
+    "runtime-main.js": "/notes-app-deploy/static/js/runtime-main.2e200e15.js",
+    "runtime-main.js.map": "/notes-app-deploy/static/js/runtime-main.2e200e15.js.map",
+    "static/js/2.967b1612.chunk.js": "/notes-app-deploy/static/js/2.967b1612.chunk.js",
+    "static/js/2.967b1612.chunk.js.map": "/notes-app-deploy/static/js/2.967b1612.chunk.js.map",
+    "static/js/3.ba020aab.chunk.js": "/notes-app-deploy/static/js/3.ba020aab.chunk.js",
+    "static/js/3.ba020aab.chunk.js.map": "/notes-app-deploy/static/js/3.ba020aab.chunk.js.map",
+    "index.html": "/notes-app-deploy/index.html",
+    "static/css/main.abae0289.chunk.css.map": "/notes-app-deploy/static/css/main.abae0289.chunk.css.map",
+    "static/js/2.967b1612.chunk.js.LICENSE.txt": "/notes-app-deploy/static/js/2.967b1612.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/notes-app-deploy/static/media/background.efefa80c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e200e15.js",
+    "static/js/2.967b1612.chunk.js",
+    "static/css/main.abae0289.chunk.css",
+    "static/js/main.60e5f58a.chunk.js"
+  ]
+}
