@@ -1,0 +1,127 @@
+
+
+.app-container {
+    padding: 2rem;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container {
+    max-width: 50em;
+    margin: 3rem auto;
+
+}
+
+.title-input {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-top: 5px solid #fff;
+    border-right: 5px solid #fff;
+    border-left: none;
+    border-bottom: 5px solid #fff;
+    border-image: none;
+    display: block;
+    height: 3rem;
+    width: 100%;
+    font-family: sans-serif;
+    border-radius: 0 3rem 0 0;
+    font-size: 1rem;
+}
+
+::placeholder {
+    color: #fff;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.body-input {
+    background-color: transparent;
+    width: 100%;
+    border-left: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    height: 10rem;
+    border-radius: 0 0 0 5rem;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.btn {
+    background-color: transparent;
+    border: 5px solid #fff;
+    font-size: 1.2rem;
+    color: #fff;
+    border-radius: 0 3rem 0 3rem;
+    padding: 1rem;
+    margin-top: 1rem;;
+    align-self: center;
+    transition: all .2s;
+}
+
+.btn-small {
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #f15a24;
+}
+
+.notes-container {
+    margin-top: 1rem;;
+}
+
+.note {
+    background-color: #fff;
+    color: #f15a24;
+    padding: 2rem;
+    padding-top: 1rem;
+    border-radius: 0 5rem 0 5rem;
+    margin-bottom: 1rem;
+}
+
+.note-title {
+    border-bottom: 2px solid #f15a24;
+    font-family: sans-serif;
+}
+
+@media only screen and (min-width: 50em) {
+    .form-container {
+        display: flex;
+        justify-content: space-around;
+        gap: 4rem;
+    }
+    form {
+        width: 50%;
+    }
+    .all-notes-container {
+        width: 50%;
+        overflow-y: scroll;
+        height: 50vh;
+        border: none;
+    }
+
+    ::-webkit-scrollbar {
+        background-color: #f15a24;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #fff;
+
+    }
+
+}
+
+.logo {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo svg {
+    width: 100%;
+}
